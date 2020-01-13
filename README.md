@@ -1,7 +1,4 @@
-# Markdown-tutorial
-
-Markdown Cheatsheet（小抄）
-================
+# Markdown Cheatsheet（小抄）
 
 - ### Markdown **目的**：
    - 用來作為一種網路內容的寫作用語言。

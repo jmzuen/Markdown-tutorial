@@ -1,15 +1,16 @@
 ## 目錄  
 
-- [標題](#headers)  
-- [重點](#emphasis)  
-- [列表](#lists)  
-- [連結](#links)  
-- [圖片](#images)  
-- [編碼與語法](#code)  
+- [標題 Headers](#headers)  
+- [重點 Emphasis](#emphasis)  
+- [列表 Lists](#lists)  
+- [連結 Links](#links)  
+- [圖片 Images](#images)  
+- [編碼與語法 Code & Syntax](#code)  
 
 <a name="headers"/>
 
 > ### 標題 (Headers)
+_______
 
 ```
 # H1
@@ -31,7 +32,10 @@
 
 <a name="emphasis"/>
 
+
+
 > ### 重點 (Emphasis)
+_____
 
 ```
 斜體：在兩邊加上 *星號* 或是 _下劃線_ 。
@@ -56,7 +60,7 @@
 <a name="lists"/>
 
 > ### 列表
-
+_____
 
 ```
 1. 第一個有序列表項目
@@ -97,10 +101,11 @@
 <a name="links"/>
 
 > ### 連結 (Links)
+_____
 
 有兩個方法可以建立連結
 
-```no-highlight
+```
 [這是一個行內樣式的連結](https://www.google.com)
 
 [這是一個加上標題的行內樣式連結](https://www.google.com "Google 的首頁")
@@ -147,6 +152,7 @@ http://www.example.com 或 <http://www.example.com> 甚至有時候 example.com 
 <a name="images"/>
 
 > ### 圖片 (Image)
+_____
 
 ```
 我最愛的鋼鐵人（把游標指向 Logo 可以看到標題文字）
@@ -163,9 +169,11 @@ http://www.example.com 或 <http://www.example.com> 甚至有時候 example.com 
 這是我們的 Logo（把游標指向 Logo 可以看到標題文字）
 
 行內樣式：
+
 ![alt 文字](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThUlMA4VChlN0BsR8hWEjyaJel2iI9JSsAye4JJxY-tSDMNeIJ4g&s "Logo 標題文字 1")
 
 引用樣式: 
+
 ![alt 文字][logo]
 
 [logo]: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyvDV8N0V3if9qw0o8669AoAo8JGTbLCzjaD34UzkKIO6byGJfkQ&s "Logo 標題文字 2"
@@ -173,11 +181,12 @@ http://www.example.com 或 <http://www.example.com> 甚至有時候 example.com 
 <a name="code"/>
 
 > ### 程式碼與語法 (Code & Syntax)
+_____
 
 程式碼區塊是 Markdown 規格的一部分，不過語法高亮不是。無論如何，許多渲染器──如 Github 和 *Markdown Here* ──支援語法高亮。每個渲染器支援的程式語言，以及程式語言的名字寫法都不一樣。*Markdown Here* 支援幾十種語言（以及不一定是真的程式語言，像 diffs 與 HTTP headers）的語法高亮；要看完整的列表，以及語言的名稱，請見 [highlight.js 的示範頁](http://softwaremaniacs.org/media/soft/highlight/test.html)。
 
 
-```no-highlight
+```
 行內的 `程式碼` 用 `反引號` 包圍起來。
 Inline `code` has `back-ticks around` it.
 ```

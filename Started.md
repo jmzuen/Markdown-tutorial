@@ -33,7 +33,6 @@ _______
 <a name="emphasis"/>
 
 
-
 > ### 重點 (Emphasis)
 _____
 
@@ -58,6 +57,7 @@ _____
 
 
 <a name="lists"/>
+
 
 > ### 列表
 _____
@@ -99,6 +99,7 @@ _____
 + 或加號
 
 <a name="links"/>
+
 
 > ### 連結 (Links)
 _____
@@ -151,39 +152,41 @@ http://www.example.com 或 <http://www.example.com> 甚至有時候 example.com 
 
 <a name="images"/>
 
+
 > ### 圖片 (Image)
 _____
 
 ```
-我最愛的鋼鐵人（把游標指向 Logo 可以看到標題文字）
-
 行內樣式：
-![alt 文字](https://複製網址圖便位置連結 "我最愛的鋼鐵人")
+![alt 文字](https://i.imgur.com/rt7LJbv.png "Logo 標題文字 1")
 
 引用樣式: 
 ![alt 文字][logo]
 
-[logo]: https://複製網址圖便位置連結 "Logo 標題文字 2"
+[logo]: https://i.imgur.com/2tJnUrJ.png "Logo 標題文字 2"
 ```
 
-這是我們的 Logo（把游標指向 Logo 可以看到標題文字）
-
 行內樣式：
 
-![alt 文字](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThUlMA4VChlN0BsR8hWEjyaJel2iI9JSsAye4JJxY-tSDMNeIJ4g&s "Logo 標題文字 1")
+![alt 文字](https://i.imgur.com/rt7LJbv.png "Logo 標題文字 1")
 
 引用樣式: 
 
 ![alt 文字][logo]
 
-[logo]: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyvDV8N0V3if9qw0o8669AoAo8JGTbLCzjaD34UzkKIO6byGJfkQ&s "Logo 標題文字 2"
+[logo]: https://i.imgur.com/2tJnUrJ.png "Logo 標題文字 2"
 
 <a name="code"/>
+
 
 > ### 程式碼與語法 (Code & Syntax)
 _____
 
-程式碼區塊是 Markdown 規格的一部分，不過語法高亮不是。無論如何，許多渲染器──如 Github 和 *Markdown Here* ──支援語法高亮。每個渲染器支援的程式語言，以及程式語言的名字寫法都不一樣。*Markdown Here* 支援幾十種語言（以及不一定是真的程式語言，像 diffs 與 HTTP headers）的語法高亮；要看完整的列表，以及語言的名稱，請見 [highlight.js 的示範頁](http://softwaremaniacs.org/media/soft/highlight/test.html)。
+程式碼區塊是 Markdown 規格的一部分，不過 語法highlight 不是。
+無論如何，許多渲染器如 Github 和 *Markdown Here* ──支援 語法highlight。
+每個渲染器支援的程式語言，以及程式語言的名字寫法都不一樣。
+*Markdown Here* 支援幾十種語言（以及不一定是真的程式語言，像 diffs 與 HTTP headers）的語法highlight；
+要看完整的列表，以及語言的名稱，請見 [highlight.js 的示範頁](http://softwaremaniacs.org/media/soft/highlight/test.html)。
 
 
 ```
@@ -193,34 +196,32 @@ Inline `code` has `back-ticks around` it.
 
 行內的 `程式碼` 用 `反引號` 包圍起來。
 
-程式碼區塊可以用只有三個反引號<code>```</code>的一行圍起來，或是以四個空格縮排。我建議用三個反引號的方式圍起來 ── 這比較簡單，而且只有這個方式支援語法高亮。
+程式碼區塊可以用只有三個反引號<code>```</code>的一行圍起來，或是以四個空格縮排。
+我建議用三個反引號的方式圍起來 ── 這比較簡單，而且只有這個方式支援語法高亮。
 
 <pre lang="no-highlight"><code>```javascript
-var s = "JavaScript 語法高亮";
+var s = "JavaScript Highlight Syntax";
 alert(s);
 ```
  
 ```python
-s = "Python 語法高亮"
-print s
+Language = "Python Highlight Syntax"
+print(Language)
 ```
  
 ```
-沒有指定程式語言，所以沒有語法高亮。
+沒有指定程式語言，所以沒有語法。
 不過，我們可以放進一個 <b>標籤</b>。
 ```
 </code></pre>
 
 
-
 ```javascript
-var s = "JavaScript 語法高亮";
+var s = "JavaScript Highlight Syntax";
 alert(s);
 ```
 
 ```python
-s = "Python 語法高亮"
-print s
-```
-
+Language = "Python Highlight Syntax"
+print(Language)
 ```

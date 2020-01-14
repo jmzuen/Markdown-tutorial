@@ -225,3 +225,8 @@ alert(s);
 Language = "Python Highlight Syntax"
 print(Language)
 ```
+
+```
+沒有指定程式語言，所以沒有語法。
+不過，我們可以放進一個 <b>標籤</b>。
+```

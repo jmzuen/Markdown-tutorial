@@ -1,3 +1,9 @@
+# Mark-down 小教室
+以下是 Markdown 的 Cheat Sheet(小抄)，
+你可以點擊 __目錄__ 快速到達該內容區塊。
+
+你也可以直接參考《Markdown Here Cheatsheet》，[這裡](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)有一篇外英文版教學，學習更多 Markdown 的工具。
+
 ## 目錄  
 
 - [標題 Headers](#headers)  

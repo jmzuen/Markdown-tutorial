@@ -1,4 +1,4 @@
-# Mark-down 小教室
+# Markdown 小教室
 以下是 Markdown 的 Cheat Sheet(小抄)，
 你可以點擊 __目錄__ 快速到達該內容區塊。
 
@@ -66,7 +66,7 @@ _____
 <a name="lists"/>
 
 
-> ### 列表
+> ### 列表 (Lists)
 _____
 
 ```
@@ -245,6 +245,7 @@ print(Language)
 <a name="hr"/>
 
 >> ## 水平線 (Horizontal)
+_____
 
 ```
 三個或更多 以下符號

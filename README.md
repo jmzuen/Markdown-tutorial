@@ -6,3 +6,6 @@
    - 用來是實現「易讀易寫」。
 - ### Markdown **語法**：
    - 全由標點符號所組成。
+   
+## 點擊以下「按鈕」開始吧！
+[點我開始](https://github.com/TsuNmei/Markdown-tutorial/blob/master/Started.md)

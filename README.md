@@ -7,5 +7,7 @@
 - ### Markdown **語法**：
    - 全由標點符號所組成。
    
-## 點擊以下「按鈕」開始吧！
-[點我開始](https://github.com/TsuNmei/Markdown-tutorial/blob/master/Started.md)
+   
+   
+## 點擊「開始」來開始學 Markdown (md) 吧！！！
+[◉ 開始](https://github.com/TsuNmei/Markdown-tutorial/blob/master/Started.md)
